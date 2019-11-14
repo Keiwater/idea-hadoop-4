@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "hiveDemo01",
+                "projectName": "hiveDemo01",
+                "workingDirectory": "e:\\WorkSpaces\\IdeaProjects\\hiveDemo01",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "hiveDemo01",
+                "projectName": "hiveDemo01",
+                "workingDirectory": "e:\\WorkSpaces\\IdeaProjects\\hiveDemo01",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}

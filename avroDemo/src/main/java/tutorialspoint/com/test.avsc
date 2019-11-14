@@ -1,0 +1,9 @@
+{
+	"type" : "record",
+	"namespace" : "tutorialspoint.com",
+	"name" : "test",
+	"fields" : [
+		{ "name" : "Name", "type" : "string" },
+		{ "name" : "Id", "type" : "int"}
+	]
+}

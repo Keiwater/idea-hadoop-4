@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ZookeeperDemo/ZookeeperDemo.iml" filepath="$PROJECT_DIR$/ZookeeperDemo/ZookeeperDemo.iml" group="hiveDemo01 and modules" />
+      <module fileurl="file://$PROJECT_DIR$/avroDemo/avroDemo.iml" filepath="$PROJECT_DIR$/avroDemo/avroDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbaseDemo/hbaseDemo.iml" filepath="$PROJECT_DIR$/hbaseDemo/hbaseDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hiveDemo01.iml" filepath="$PROJECT_DIR$/hiveDemo01.iml" group="hiveDemo01 and modules" />
+      <module fileurl="file://$PROJECT_DIR$/j2seDemo/j2seDemo.iml" filepath="$PROJECT_DIR$/j2seDemo/j2seDemo.iml" />
+    </modules>
+  </component>
+</project>

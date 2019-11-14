@@ -1,0 +1,4165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="172.16.10.114">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.9">
+    <root id="1">
+      <ServerVersion>5.6.39</ServerVersion>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>exact</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="credit">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="sp_bussi">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="test">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="6" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="7" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="8" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="9" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="10" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="11" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="12" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="13" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="14" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="15" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="16" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="17" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="18" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="19" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="20" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="21" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="22" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="23" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="24" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="25" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="26" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="27" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="28" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="29" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="30" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="31" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="32" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="33" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="34" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="35" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="36" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="37" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="38" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="39" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="40" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="41" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="42" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="43" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="44" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="45" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="46" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="47" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="225" parent="2" name="AccountCashFlow">
+      <Comment>资金账户流水</Comment>
+    </table>
+    <table id="226" parent="2" name="ApplicationHistory">
+      <Comment>进件历史</Comment>
+    </table>
+    <table id="227" parent="2" name="AuditingInfo">
+      <Comment>进件申请</Comment>
+    </table>
+    <table id="228" parent="2" name="Beoverdue">
+      <Comment>逾期管理</Comment>
+    </table>
+    <table id="229" parent="2" name="CollectionRecord">
+      <Comment>催收记录</Comment>
+    </table>
+    <table id="230" parent="2" name="ConstantDefine">
+      <Comment>常量设置(字典表)</Comment>
+    </table>
+    <table id="231" parent="2" name="ContractAudit">
+      <Comment>合同审核</Comment>
+    </table>
+    <table id="232" parent="2" name="ContractInfo">
+      <Comment>合同信息</Comment>
+    </table>
+    <table id="233" parent="2" name="ContractNotice">
+      <Comment>签约通知</Comment>
+    </table>
+    <table id="234" parent="2" name="CustomerCard">
+      <Comment>客户卡信息</Comment>
+    </table>
+    <table id="235" parent="2" name="CustomerInfo">
+      <Comment>客户信息</Comment>
+    </table>
+    <table id="236" parent="2" name="CustomerInfoDetail">
+      <Comment>客户详细信息</Comment>
+    </table>
+    <table id="237" parent="2" name="CustomerInfoSnapshot">
+      <Comment>客户快照信息</Comment>
+    </table>
+    <table id="238" parent="2" name="CustomerSnapshotDetail">
+      <Comment>客户详细信息快照</Comment>
+    </table>
+    <table id="239" parent="2" name="RepaymentPlan">
+      <Comment>还款计划</Comment>
+    </table>
+    <table id="240" parent="2" name="be_overdue_detail">
+      <Comment>逾期详细信息</Comment>
+    </table>
+    <column id="241" parent="225" name="accountCashFlowId">
+      <Position>1</Position>
+      <Comment>资金账户流水ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="242" parent="225" name="customerAccountId">
+      <Position>2</Position>
+      <Comment>客户资金账户ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="243" parent="225" name="changeHistoryId">
+      <Position>3</Position>
+      <Comment>变更历史ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="244" parent="225" name="fromAccountId">
+      <Position>4</Position>
+      <Comment>来源账户ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="245" parent="225" name="toAccountId">
+      <Position>5</Position>
+      <Comment>流向账户ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="246" parent="225" name="balance">
+      <Position>6</Position>
+      <Comment>发生金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="247" parent="225" name="createTime">
+      <Position>7</Position>
+      <Comment>发生时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="248" parent="225" name="balanceType">
+      <Position>8</Position>
+      <Comment>发生金额类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="249" parent="225" name="flowType">
+      <Position>9</Position>
+      <Comment>流水类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="250" parent="225" name="fromWhere">
+      <Position>10</Position>
+      <Comment>发生来源</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="225" name="formObjId">
+      <Position>11</Position>
+      <Comment>来源ID</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="225" name="flowDesc">
+      <Position>12</Position>
+      <Comment>描述信息</Comment>
+      <DataType>varchar(1024)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="253" parent="225" name="advanceDate">
+      <Position>13</Position>
+      <Comment>实际垫付时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="254" parent="225" name="dw_update_time">
+      <Position>14</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="255" parent="225" name="idx_customerAccountId">
+      <ColNames>customerAccountId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="256" parent="225" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="257" parent="225" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>accountCashFlowId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="258" parent="226" name="applicationHistoryId">
+      <Position>1</Position>
+      <Comment>进件历史Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="259" parent="226" name="auditingInfoId">
+      <Position>2</Position>
+      <Comment>进件审核单Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="260" parent="226" name="nodeState">
+      <Position>3</Position>
+      <Comment>进件节点状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="261" parent="226" name="optionId">
+      <Position>4</Position>
+      <Comment>操作人Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="262" parent="226" name="optionName">
+      <Position>5</Position>
+      <Comment>操作人姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="263" parent="226" name="createTime">
+      <Position>6</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="264" parent="226" name="reason">
+      <Position>7</Position>
+      <Comment>原因</Comment>
+      <DataType>varchar(2000)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="265" parent="226" name="remark">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>text|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="266" parent="226" name="dw_update_time">
+      <Position>9</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="267" parent="226" name="idx_infoid_ctime_nodestate">
+      <ColNames>auditingInfoId
+createTime
+nodeState</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="268" parent="226" name="idx_nodeState_auditingInfoId">
+      <ColNames>nodeState
+auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="269" parent="226" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="270" parent="226" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>applicationHistoryId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="271" parent="227" name="auditingInfoId">
+      <Position>1</Position>
+      <Comment>进件审核单Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="272" parent="227" name="customerInfoSnapshotId">
+      <Position>2</Position>
+      <Comment>客户快照信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="273" parent="227" name="auditingCode">
+      <Position>3</Position>
+      <Comment>进件审核单号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="274" parent="227" name="applyQuota">
+      <Position>4</Position>
+      <Comment>申请借款额度</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="275" parent="227" name="toCardId">
+      <Position>5</Position>
+      <Comment>打款卡ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="276" parent="227" name="submitTime">
+      <Position>6</Position>
+      <Comment>提审时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="277" parent="227" name="recorderId">
+      <Position>7</Position>
+      <Comment>客服id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="278" parent="227" name="recorderName">
+      <Position>8</Position>
+      <Comment>客服姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="279" parent="227" name="periods">
+      <Position>9</Position>
+      <Comment>申请期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="280" parent="227" name="auditingBalance">
+      <Position>10</Position>
+      <Comment>批复额度</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="227" name="auditingState">
+      <Position>11</Position>
+      <Comment>申请单状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="227" name="expedited">
+      <Position>12</Position>
+      <Comment>是否加急</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="227" name="salesManId">
+      <Position>13</Position>
+      <Comment>销售ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="227" name="salesManName">
+      <Position>14</Position>
+      <Comment>销售姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="227" name="hasGenContract">
+      <Position>15</Position>
+      <Comment>是否生成合同</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="227" name="followUpUser">
+      <Position>16</Position>
+      <Comment>跟踪人Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="227" name="acceptableRepayment">
+      <Position>17</Position>
+      <Comment>可接受月还款</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="227" name="IsDerat">
+      <Position>18</Position>
+      <Comment>是否降额</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="227" name="reductionQuota">
+      <Position>19</Position>
+      <Comment>降额后额度</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="227" name="salesOfficerId">
+      <Position>20</Position>
+      <Comment>销售组Id</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="227" name="salesOfficerName">
+      <Position>21</Position>
+      <Comment>销售组名字</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="292" parent="227" name="qualityPeopleId">
+      <Position>22</Position>
+      <Comment>质检人id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="227" name="qualityPeopleName">
+      <Position>23</Position>
+      <Comment>质检人姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="227" name="borrowingPurposes">
+      <Position>24</Position>
+      <Comment>详细借款用途</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="295" parent="227" name="longestRepaymentDay">
+      <Position>25</Position>
+      <Comment>申请最长还款期限</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="227" name="remarks">
+      <Position>26</Position>
+      <Comment>备注信息</Comment>
+      <DataType>text|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="227" name="familyKnow">
+      <Position>27</Position>
+      <Comment>家人是否知道</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="227" name="jobReferencesKnow">
+      <Position>28</Position>
+      <Comment>工作证明人是否知道</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="227" name="emergencyContactKnow">
+      <Position>29</Position>
+      <Comment>紧急联系人是否知道</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="227" name="hasCreditReport">
+      <Position>30</Position>
+      <Comment>是否上传征信报告</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="227" name="isAddInfor">
+      <Position>31</Position>
+      <Comment>是否补充资料</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="302" parent="227" name="isBack">
+      <Position>32</Position>
+      <Comment>是否回退</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="303" parent="227" name="createTime">
+      <Position>33</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="304" parent="227" name="lstMdfTime">
+      <Position>34</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="227" name="isReturnVisit">
+      <Position>35</Position>
+      <Comment>是否回访</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="227" name="affiliation">
+      <Position>36</Position>
+      <Comment>所属机构</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="227" name="recorderParganaCode">
+      <Position>37</Position>
+      <Comment>客服所在大区Code</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="227" name="recorderPargana">
+      <Position>38</Position>
+      <Comment>客服所在大区</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="309" parent="227" name="recorderProvinceCode">
+      <Position>39</Position>
+      <Comment>客服所在城市Code</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="310" parent="227" name="recorderProvince">
+      <Position>40</Position>
+      <Comment>客服所在城市</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="311" parent="227" name="recorderAreaCode">
+      <Position>41</Position>
+      <Comment>客服所在片区Code</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="312" parent="227" name="recorderArea">
+      <Position>42</Position>
+      <Comment>客服所在片区</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="313" parent="227" name="recorderStoreCode">
+      <Position>43</Position>
+      <Comment>客服所在门店Code</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="314" parent="227" name="recorderStore">
+      <Position>44</Position>
+      <Comment>客服所在门店</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="315" parent="227" name="settlementDate">
+      <Position>45</Position>
+      <Comment>结清时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="316" parent="227" name="hasSettlementProve">
+      <Position>46</Position>
+      <Comment>是否生成结清证明</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="227" name="isAgainAudit">
+      <Position>47</Position>
+      <Comment>是否再次进件</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="318" parent="227" name="isSendOut">
+      <Position>48</Position>
+      <Comment>是否发标</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="319" parent="227" name="checkCreditReport">
+      <Position>49</Position>
+      <Comment>检测是否有征信报告</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="227" name="auditingInfoType">
+      <Position>50</Position>
+      <Comment>线上线下</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="227" name="idCode">
+      <Position>51</Position>
+      <Comment>身份证号</Comment>
+      <DataType>varchar(18)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="227" name="customerName">
+      <Position>52</Position>
+      <Comment>客户姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="323" parent="227" name="crossCheckTime">
+      <Position>53</Position>
+      <Comment>提交时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="324" parent="227" name="beforeFreezeState">
+      <Position>54</Position>
+      <Comment>冻结前状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="325" parent="227" name="userId">
+      <Position>55</Position>
+      <Comment>信贷用户Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="326" parent="227" name="teamManager">
+      <Position>56</Position>
+      <Comment>团队经理</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="227" name="teamManagerId">
+      <Position>57</Position>
+      <Comment>团队经理id</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="227" name="customerType">
+      <Position>58</Position>
+      <Comment>客户类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="329" parent="227" name="ifPaymentOfBoHai">
+      <Position>59</Position>
+      <Comment>是否渤海放款</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="330" parent="227" name="ifPaymentOfServiceFee">
+      <Position>60</Position>
+      <Comment>服务费是否放款</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="331" parent="227" name="ifPaymentOfCustomer">
+      <Position>61</Position>
+      <Comment>是否已经给客户放款</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="332" parent="227" name="getCustomerOfWay">
+      <Position>62</Position>
+      <Comment>线上/线下获客(1线上 2线下)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="333" parent="227" name="source">
+      <Position>63</Position>
+      <Comment>客户来源</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="334" parent="227" name="correspondStoreCode">
+      <Position>64</Position>
+      <Comment>进件对应门店Code</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="335" parent="227" name="correspondStore">
+      <Position>65</Position>
+      <Comment>进件对应门店名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="336" parent="227" name="verificationStatus">
+      <Position>66</Position>
+      <Comment>电销门店拒绝、客户放弃审核状态(1:门店拒绝等待审核2:门店拒绝审核驳回3:门店拒绝审核通过4:客户放弃等待审核5:客户放弃审核驳回6:客户放弃审核通过)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="337" parent="227" name="auditingInfoChannel">
+      <Position>67</Position>
+      <Comment>进件渠道(1:直销2:电销3:第三方)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="338" parent="227" name="oldRecorderDept">
+      <Position>68</Position>
+      <Comment>原门店</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="339" parent="227" name="oldRecorderName">
+      <Position>69</Position>
+      <Comment>原客服</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="340" parent="227" name="oldSalesManName">
+      <Position>70</Position>
+      <Comment>原销售</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="341" parent="227" name="signingChannelId">
+      <Position>71</Position>
+      <Comment>签约渠道ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="342" parent="227" name="customerSource">
+      <Position>72</Position>
+      <Comment>客户来源 :1客户端 2门店业务</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="343" parent="227" name="productEvolutionId">
+      <Position>73</Position>
+      <Comment>产品数据id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="344" parent="227" name="productVersionEvolutionId">
+      <Position>74</Position>
+      <Comment>产品版本id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="227" name="productName">
+      <Position>75</Position>
+      <Comment>产品名称</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="346" parent="227" name="rate">
+      <Position>76</Position>
+      <Comment>费率</Comment>
+      <DataType>decimal(10,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="347" parent="227" name="signType">
+      <Position>77</Position>
+      <Comment>签约方式</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="348" parent="227" name="signState">
+      <Position>78</Position>
+      <Comment>认证状态 1、待预约 2、已预约 3、已认证 4、已完成</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="349" parent="227" name="signedResult">
+      <Position>79</Position>
+      <Comment>签约结果 1 成功 2 失败</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="350" parent="227" name="videoSignPersonName">
+      <Position>80</Position>
+      <Comment>签约人名字</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="351" parent="227" name="videoSignPersonId">
+      <Position>81</Position>
+      <Comment>签约人id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="352" parent="227" name="contractState">
+      <Position>82</Position>
+      <Comment>是否为合同生成中的状态 1 是 2 否</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="353" parent="227" name="faceRecognitionState">
+      <Position>83</Position>
+      <Comment>人脸识别状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="354" parent="227" name="ifManualReview">
+      <Position>84</Position>
+      <Comment>是否人审(1,是;2否)</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="355" parent="227" name="oldRecorderCode">
+      <Position>85</Position>
+      <Comment>原门店编码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="356" parent="227" name="isZMAccredit">
+      <Position>86</Position>
+      <Comment>是否芝麻授权 1是 2否</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="357" parent="227" name="tdReportId">
+      <Position>87</Position>
+      <Comment>同盾监控报告id</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="358" parent="227" name="isAddTDMonitor">
+      <Position>88</Position>
+      <Comment>是否添加过贷后监控</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="359" parent="227" name="dw_update_time">
+      <Position>89</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="360" parent="227" name="idx_customerInfoSnapshotId">
+      <ColNames>customerInfoSnapshotId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="361" parent="227" name="idx_auditingCode">
+      <ColNames>auditingCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="362" parent="227" name="idx_submitTime">
+      <ColNames>submitTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="363" parent="227" name="idx_recorderName">
+      <ColNames>recorderName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="364" parent="227" name="idx_auditingState_crossCheckTime">
+      <ColNames>auditingState
+crossCheckTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="365" parent="227" name="idx_auditingState">
+      <ColNames>auditingState</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="366" parent="227" name="idx_salesManId">
+      <ColNames>salesManId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="367" parent="227" name="idx_salesManName">
+      <ColNames>salesManName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="368" parent="227" name="i_salesOfficerId">
+      <ColNames>salesOfficerId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="369" parent="227" name="idx_createTime">
+      <ColNames>createTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="370" parent="227" name="idx_recorderStoreCode">
+      <ColNames>recorderStoreCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="371" parent="227" name="idx_idCode">
+      <ColNames>idCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="372" parent="227" name="idx_customerName">
+      <ColNames>customerName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="373" parent="227" name="idx_crossCheckTime">
+      <ColNames>crossCheckTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="374" parent="227" name="idx_userId">
+      <ColNames>userId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="375" parent="227" name="idx_correspondStoreCode">
+      <ColNames>correspondStoreCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="376" parent="227" name="idx_productEvolutionId">
+      <ColNames>productEvolutionId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="377" parent="227" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="378" parent="227" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>auditingInfoId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="379" parent="228" name="beoverdueId">
+      <Position>1</Position>
+      <Comment>逾期管理ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="380" parent="228" name="auditingInfoId">
+      <Position>2</Position>
+      <Comment>进件审核单Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="381" parent="228" name="beOverdueDays">
+      <Position>3</Position>
+      <Comment>逾期天数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="382" parent="228" name="beOverdueType">
+      <Position>4</Position>
+      <Comment>逾期类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="383" parent="228" name="state">
+      <Position>5</Position>
+      <Comment>逾期状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="384" parent="228" name="followUpPeopleId">
+      <Position>6</Position>
+      <Comment>跟进人ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="385" parent="228" name="followUpPeople">
+      <Position>7</Position>
+      <Comment>跟进人</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="386" parent="228" name="followUpDate">
+      <Position>8</Position>
+      <Comment>最后跟进日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="387" parent="228" name="remark">
+      <Position>9</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(1024)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="388" parent="228" name="createTime">
+      <Position>10</Position>
+      <Comment>创建日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="389" parent="228" name="adminId">
+      <Position>11</Position>
+      <Comment>操作人ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="390" parent="228" name="shouldBalance">
+      <Position>12</Position>
+      <Comment>应还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="391" parent="228" name="factBalance">
+      <Position>13</Position>
+      <Comment>已还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="392" parent="228" name="remainingBalance">
+      <Position>14</Position>
+      <Comment>剩余应还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="393" parent="228" name="monthBalance">
+      <Position>15</Position>
+      <Comment>月还款额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="394" parent="228" name="isFirstOverdue">
+      <Position>16</Position>
+      <Comment>是否首期逾期</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="395" parent="228" name="isUpload">
+      <Position>17</Position>
+      <Comment>是否是上传的数据</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="396" parent="228" name="isMoreThreeMonth">
+      <Position>18</Position>
+      <Comment>逾期是否超过三个月</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="397" parent="228" name="moreThreeMonthDay">
+      <Position>19</Position>
+      <Comment>超过三个月的逾期天数（历史逾期天数）</Comment>
+      <DataType>int(8)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="398" parent="228" name="monthOverDueDays">
+      <Position>20</Position>
+      <Comment>月末逾期天数</Comment>
+      <DataType>int(5)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="399" parent="228" name="dw_update_time">
+      <Position>21</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="400" parent="228" name="assistCollectionId">
+      <Position>22</Position>
+      <Comment>协催员ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="401" parent="228" name="assistCollectionName">
+      <Position>23</Position>
+      <Comment>协催员姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="402" parent="228" name="index_auditingInfoId">
+      <ColNames>auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="403" parent="228" name="idx_beOverdueDays">
+      <ColNames>beOverdueDays</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="404" parent="228" name="idx_followUpPeopleId">
+      <ColNames>followUpPeopleId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="405" parent="228" name="idx_monthOverDueDays">
+      <ColNames>monthOverDueDays</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="406" parent="228" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="407" parent="228" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>beoverdueId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="408" parent="229" name="collectionRecordId">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="409" parent="229" name="auditingInfoId">
+      <Position>2</Position>
+      <Comment>进件Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="410" parent="229" name="kstId">
+      <Position>3</Position>
+      <Comment>凯盛通逾期id</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="411" parent="229" name="collectionLinkMenId">
+      <Position>4</Position>
+      <Comment>联系人Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="412" parent="229" name="collectionContractPhoneId">
+      <Position>5</Position>
+      <Comment>联系人电话Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="413" parent="229" name="actionType">
+      <Position>6</Position>
+      <Comment>结果动作类型</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="414" parent="229" name="actionCode">
+      <Position>7</Position>
+      <Comment>动作代码</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="415" parent="229" name="collectionPerson">
+      <Position>8</Position>
+      <Comment>催收人姓名</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="416" parent="229" name="contactPerson">
+      <Position>9</Position>
+      <Comment>联络人</Comment>
+      <DataType>varchar(15)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="417" parent="229" name="phoneType">
+      <Position>10</Position>
+      <Comment>电话类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="418" parent="229" name="contactPersonPhone">
+      <Position>11</Position>
+      <Comment>联络人电话</Comment>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="419" parent="229" name="callTime">
+      <Position>12</Position>
+      <Comment>呼叫时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="420" parent="229" name="remarks">
+      <Position>13</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(600)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="421" parent="229" name="sendMessageTime">
+      <Position>14</Position>
+      <Comment>发送短信时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="422" parent="229" name="shortMessageCode">
+      <Position>15</Position>
+      <Comment>短信编码</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="423" parent="229" name="shortMessageContent">
+      <Position>16</Position>
+      <Comment>短信内容</Comment>
+      <DataType>varchar(520)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="424" parent="229" name="recordType">
+      <Position>17</Position>
+      <Comment>记录类型 1 电话 2短信</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="425" parent="229" name="dw_create_time">
+      <Position>18</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="426" parent="229" name="dw_update_time">
+      <Position>19</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="427" parent="229" name="relationship">
+      <Position>20</Position>
+      <Comment>关系</Comment>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="428" parent="229" name="beOverdueDays">
+      <Position>21</Position>
+      <Comment>逾期天数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="429" parent="229" name="collectionType">
+      <Position>22</Position>
+      <Comment>标识符 1催收中心，2门店催收和机构催收</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="430" parent="229" name="refundDate">
+      <Position>23</Position>
+      <Comment>承诺还款时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="431" parent="229" name="idx_auditingInfoId">
+      <ColNames>auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="432" parent="229" name="idx_callTime">
+      <ColNames>callTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="433" parent="229" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>collectionRecordId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="434" parent="230" name="constantDefineId">
+      <Position>1</Position>
+      <Comment>常量定义ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="435" parent="230" name="constantTypeCode">
+      <Position>2</Position>
+      <Comment>常量类型编码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="436" parent="230" name="constantType">
+      <Position>3</Position>
+      <Comment>常量类型</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="437" parent="230" name="constantName">
+      <Position>4</Position>
+      <Comment>常量名称</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="438" parent="230" name="constantValue">
+      <Position>5</Position>
+      <Comment>常量值</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="439" parent="230" name="parentConstant">
+      <Position>6</Position>
+      <Comment>上级常量</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="440" parent="230" name="dw_create_time">
+      <Position>7</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="441" parent="230" name="dw_update_time">
+      <Position>8</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="442" parent="230" name="delState">
+      <Position>9</Position>
+      <Comment>删除状态 0:未删除, 1:已删除</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="443" parent="230" name="idx_constantTypeCode">
+      <ColNames>constantTypeCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="444" parent="230" name="idx_constantValue">
+      <ColNames>constantValue</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="445" parent="230" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>constantDefineId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="446" parent="231" name="auditingId">
+      <Position>1</Position>
+      <Comment>审核ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="447" parent="231" name="contractInfoId">
+      <Position>2</Position>
+      <Comment>合同信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="448" parent="231" name="auditingState">
+      <Position>3</Position>
+      <Comment>审核状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="449" parent="231" name="rejectReason">
+      <Position>4</Position>
+      <Comment>驳回原因</Comment>
+      <DataType>text|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="450" parent="231" name="operatorId">
+      <Position>5</Position>
+      <Comment>操作人ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="451" parent="231" name="operatorName">
+      <Position>6</Position>
+      <Comment>操作人姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="452" parent="231" name="createDate">
+      <Position>7</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="453" parent="231" name="rejRemark">
+      <Position>8</Position>
+      <Comment>驳回备注</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="454" parent="231" name="dw_update_time">
+      <Position>9</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="455" parent="231" name="idx_contractInfoId">
+      <ColNames>contractInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="456" parent="231" name="idx_auditingState_createDate">
+      <ColNames>auditingState
+createDate</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="457" parent="231" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="458" parent="231" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>auditingId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="459" parent="232" name="contractInfoId">
+      <Position>1</Position>
+      <Comment>合同信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="460" parent="232" name="auditingInfoId">
+      <Position>2</Position>
+      <Comment>进件申请Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="461" parent="232" name="contractCode">
+      <Position>3</Position>
+      <Comment>合同编号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="462" parent="232" name="contractBalance">
+      <Position>4</Position>
+      <Comment>合同金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="463" parent="232" name="paymentBalance">
+      <Position>5</Position>
+      <Comment>打款金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="464" parent="232" name="contractState">
+      <Position>6</Position>
+      <Comment>合同状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="465" parent="232" name="paymentChannel">
+      <Position>7</Position>
+      <Comment>签约第三方</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="466" parent="232" name="expectPayDate">
+      <Position>8</Position>
+      <Comment>预计放款日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="467" parent="232" name="signingDate">
+      <Position>9</Position>
+      <Comment>合同签约日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="468" parent="232" name="lstMdfTime">
+      <Position>10</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="469" parent="232" name="createTime">
+      <Position>11</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="470" parent="232" name="online_recheck_time">
+      <Position>12</Position>
+      <Comment>线上满标复审成功时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="471" parent="232" name="recheck_success">
+      <Position>13</Position>
+      <Comment>是否满标复审成功 1.成功 2.失败</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="472" parent="232" name="actualPaymentTime">
+      <Position>14</Position>
+      <Comment>实际打款时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="473" parent="232" name="isPushToBoHai">
+      <Position>15</Position>
+      <Comment>是否推送至渤海</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="474" parent="232" name="riskGradeChangeHistoryId">
+      <Position>16</Position>
+      <Comment>风险定级版本id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="475" parent="232" name="customerOfWay">
+      <Position>17</Position>
+      <Comment>获客属性</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="476" parent="232" name="riskGrade">
+      <Position>18</Position>
+      <Comment>风险等级</Comment>
+      <DataType>varchar(3)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="477" parent="232" name="secondPatryName">
+      <Position>19</Position>
+      <Comment>乙方分公司</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="478" parent="232" name="dw_update_time">
+      <Position>20</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="479" parent="232" name="idx_auditingInfoId">
+      <ColNames>auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="480" parent="232" name="idx_contractCode">
+      <ColNames>contractCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="481" parent="232" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="482" parent="232" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>contractInfoId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="483" parent="233" name="contractNoticeId">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="484" parent="233" name="auditingInfoId">
+      <Position>2</Position>
+      <Comment>进件ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="485" parent="233" name="remarks">
+      <Position>3</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(400)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="486" parent="233" name="createTime">
+      <Position>4</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="487" parent="233" name="notifyResults">
+      <Position>5</Position>
+      <Comment>通知结果</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="488" parent="233" name="customerGiveUpReason">
+      <Position>6</Position>
+      <Comment>客户放弃原因</Comment>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="489" parent="233" name="timeToShop">
+      <Position>7</Position>
+      <Comment>预计到店时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="490" parent="233" name="status">
+      <Position>8</Position>
+      <Comment>状态  1、未到店 2、已到店</Comment>
+      <DataType>tinyint(2)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="491" parent="233" name="dw_update_time">
+      <Position>9</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="492" parent="233" name="approvalPassTime">
+      <Position>10</Position>
+      <Comment>审核通过时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="493" parent="233" name="index_auditingInfoId">
+      <ColNames>auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="494" parent="233" name="idx_ctime">
+      <ColNames>createTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="495" parent="233" name="idx_status">
+      <ColNames>status</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="496" parent="233" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="497" parent="233" name="idx_approvalPassTime">
+      <ColNames>approvalPassTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="498" parent="233" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>contractNoticeId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="499" parent="234" name="customerCardId">
+      <Position>1</Position>
+      <Comment>客户卡ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="500" parent="234" name="customerInfoId">
+      <Position>2</Position>
+      <Comment>客户Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="501" parent="234" name="cardType">
+      <Position>3</Position>
+      <Comment>卡类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="502" parent="234" name="cardCode">
+      <Position>4</Position>
+      <Comment>卡号</Comment>
+      <DataType>varchar(19)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="503" parent="234" name="cardCustomerName">
+      <Position>5</Position>
+      <Comment>开户名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="504" parent="234" name="customerInfoSnapshotId">
+      <Position>6</Position>
+      <Comment>客户快照ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="505" parent="234" name="createTime">
+      <Position>7</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="506" parent="234" name="lstMdfTime">
+      <Position>8</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="507" parent="234" name="bindCard">
+      <Position>9</Position>
+      <Comment>信贷是否绑卡 1 已绑卡 2 解绑</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="508" parent="234" name="bindCardTime">
+      <Position>10</Position>
+      <Comment>绑卡时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="509" parent="234" name="openAccount">
+      <Position>11</Position>
+      <Comment>线上是否开户 1 已开户 2 未开户</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="510" parent="234" name="mobilePhone">
+      <Position>12</Position>
+      <Comment>银行卡预留手机号</Comment>
+      <DataType>varchar(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="511" parent="234" name="dw_update_time">
+      <Position>13</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="512" parent="234" name="baofuSignState">
+      <Position>14</Position>
+      <Comment>宝付签约状态 1：已签约 2：未签约  3：处理中</Comment>
+      <DataType>tinyint(2)|0s</DataType>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="513" parent="234" name="idCode">
+      <Position>15</Position>
+      <Comment>身份证号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="514" parent="234" name="signTimeOfBaofu">
+      <Position>16</Position>
+      <Comment>宝付签约成功时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="515" parent="234" name="jingdongSignState">
+      <Position>17</Position>
+      <Comment>京东签约状态 1：已签约 2：未签约  3：处理中</Comment>
+      <DataType>tinyint(2)|0s</DataType>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="516" parent="234" name="signTimeOfJingdong">
+      <Position>18</Position>
+      <Comment>京东签约成功时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="517" parent="234" name="shortName">
+      <Position>19</Position>
+      <Comment>开户行</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="518" parent="234" name="bankNo">
+      <Position>20</Position>
+      <Comment>银行编码</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="519" parent="234" name="idx_cardCode">
+      <ColNames>cardCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="520" parent="234" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="521" parent="234" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customerCardId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="522" parent="235" name="customerInfoId">
+      <Position>1</Position>
+      <Comment>客户Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="523" parent="235" name="customerName">
+      <Position>2</Position>
+      <Comment>客户姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="524" parent="235" name="idCode">
+      <Position>3</Position>
+      <Comment>身份证号</Comment>
+      <DataType>varchar(18)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="525" parent="235" name="sex">
+      <Position>4</Position>
+      <Comment>性别</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="526" parent="235" name="customerState">
+      <Position>5</Position>
+      <Comment>客户状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="527" parent="235" name="id5State">
+      <Position>6</Position>
+      <Comment>实名认证状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="528" parent="235" name="salesManId">
+      <Position>7</Position>
+      <Comment>销售ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="529" parent="235" name="salesManName">
+      <Position>8</Position>
+      <Comment>销售姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="530" parent="235" name="recorderId">
+      <Position>9</Position>
+      <Comment>客服Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="531" parent="235" name="recorderName">
+      <Position>10</Position>
+      <Comment>客服姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="532" parent="235" name="followUpUser">
+      <Position>11</Position>
+      <Comment>跟踪人Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="533" parent="235" name="departmentCode">
+      <Position>12</Position>
+      <Comment>所属门店编号</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="534" parent="235" name="departmentName">
+      <Position>13</Position>
+      <Comment>所属门店名字</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="535" parent="235" name="salesOfficerId">
+      <Position>14</Position>
+      <Comment>销售组id</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="536" parent="235" name="salesOfficerName">
+      <Position>15</Position>
+      <Comment>销售组名字</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="537" parent="235" name="createTime">
+      <Position>16</Position>
+      <Comment>录入时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="538" parent="235" name="lstMdfTime">
+      <Position>17</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="539" parent="235" name="dw_update_time">
+      <Position>18</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="540" parent="235" name="idx_idCode">
+      <ColNames>idCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="541" parent="235" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="542" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customerInfoId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="543" parent="236" name="customerInfoDetailId">
+      <Position>1</Position>
+      <Comment>客户详细信息主键</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="544" parent="236" name="customerInfoId">
+      <Position>2</Position>
+      <Comment>客户信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="545" parent="236" name="isMarry">
+      <Position>3</Position>
+      <Comment>婚姻状况</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="546" parent="236" name="householdProvince">
+      <Position>4</Position>
+      <Comment>户籍所在省</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="547" parent="236" name="householdCity">
+      <Position>5</Position>
+      <Comment>户籍所在市</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="548" parent="236" name="householdSubCity">
+      <Position>6</Position>
+      <Comment>户籍所在区县</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="549" parent="236" name="householdAddress">
+      <Position>7</Position>
+      <Comment>户籍详细地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="550" parent="236" name="householdZipcode">
+      <Position>8</Position>
+      <Comment>户籍所在邮编</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="551" parent="236" name="livesProvince">
+      <Position>9</Position>
+      <Comment>居住地所在省</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="552" parent="236" name="livesCity">
+      <Position>10</Position>
+      <Comment>居住地所在市</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="553" parent="236" name="livesSubCity">
+      <Position>11</Position>
+      <Comment>居住地所有区县</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="554" parent="236" name="livesAddress">
+      <Position>12</Position>
+      <Comment>居住地详细地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="555" parent="236" name="livesTelphone">
+      <Position>13</Position>
+      <Comment>居住址电话</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="556" parent="236" name="zipcode">
+      <Position>14</Position>
+      <Comment>居住地邮编</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="557" parent="236" name="mobilePhone">
+      <Position>15</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="558" parent="236" name="email">
+      <Position>16</Position>
+      <Comment>电子邮箱</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="559" parent="236" name="fromChannel">
+      <Position>17</Position>
+      <Comment>客户来源</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="560" parent="236" name="incomeMonth">
+      <Position>18</Position>
+      <Comment>月收入</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="561" parent="236" name="hasChildren">
+      <Position>19</Position>
+      <Comment>是否有子女</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="562" parent="236" name="highestEducation">
+      <Position>20</Position>
+      <Comment>最高学历</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="563" parent="236" name="companyWorkName">
+      <Position>21</Position>
+      <Comment>工作单位名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="564" parent="236" name="companyProvince">
+      <Position>22</Position>
+      <Comment>工作单位所在省</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="565" parent="236" name="companyCity">
+      <Position>23</Position>
+      <Comment>工作单位所在市</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="566" parent="236" name="companySubcity">
+      <Position>24</Position>
+      <Comment>工作单位区县</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="567" parent="236" name="companyAddress">
+      <Position>25</Position>
+      <Comment>工作单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="568" parent="236" name="companyZipcode">
+      <Position>26</Position>
+      <Comment>工作单位邮编</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="569" parent="236" name="companyTelphone">
+      <Position>27</Position>
+      <Comment>单位电话</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="570" parent="236" name="workPosition">
+      <Position>28</Position>
+      <Comment>职务</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="571" parent="236" name="otherIncome">
+      <Position>29</Position>
+      <Comment>其他收入</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="572" parent="236" name="payday">
+      <Position>30</Position>
+      <Comment>每月发薪日</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="573" parent="236" name="payway">
+      <Position>31</Position>
+      <Comment>发薪方式</Comment>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="574" parent="236" name="hiredate">
+      <Position>32</Position>
+      <Comment>进入该单位时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="575" parent="236" name="involved">
+      <Position>33</Position>
+      <Comment>所属行业</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="576" parent="236" name="unitNature">
+      <Position>34</Position>
+      <Comment>单位性质</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="577" parent="236" name="accumulationFundPassword">
+      <Position>35</Position>
+      <Comment>公积金卡密码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="578" parent="236" name="accumulationFundNumber">
+      <Position>36</Position>
+      <Comment>公积金卡号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="579" parent="236" name="bankNumber">
+      <Position>37</Position>
+      <Comment>银行卡号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="580" parent="236" name="cohabitant">
+      <Position>38</Position>
+      <Comment>共同居住者</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="581" parent="236" name="startLiving">
+      <Position>39</Position>
+      <Comment>起始居住时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="582" parent="236" name="chummageMoney">
+      <Position>40</Position>
+      <Comment>住房租用费用</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="583" parent="236" name="liveStatus">
+      <Position>41</Position>
+      <Comment>住房状况</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="584" parent="236" name="weChatId">
+      <Position>42</Position>
+      <Comment>微信号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="585" parent="236" name="supportNumber">
+      <Position>43</Position>
+      <Comment>供养人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="586" parent="236" name="createTime">
+      <Position>44</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="587" parent="236" name="lstMdfTime">
+      <Position>45</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="588" parent="236" name="workCustomerType">
+      <Position>46</Position>
+      <Comment>工作客户类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="589" parent="236" name="workSetUpTime">
+      <Position>47</Position>
+      <Comment>成立时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="590" parent="236" name="localDepartMent">
+      <Position>48</Position>
+      <Comment>所在部门</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="591" parent="236" name="residenceNature">
+      <Position>49</Position>
+      <Comment>户口性质</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="592" parent="236" name="freelanceWorkPosition">
+      <Position>50</Position>
+      <Comment>手动输入自由职业</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="593" parent="236" name="occupationType">
+      <Position>51</Position>
+      <Comment>职业类型</Comment>
+      <DataType>tinyint(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="594" parent="236" name="token">
+      <Position>52</Position>
+      <Comment>网易云密码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="595" parent="236" name="accid">
+      <Position>53</Position>
+      <Comment>网易云登录账号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="596" parent="236" name="netEastName">
+      <Position>54</Position>
+      <Comment>网易云昵称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="597" parent="236" name="dw_update_time">
+      <Position>55</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="598" parent="236" name="idx_customerInfoId">
+      <ColNames>customerInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="599" parent="236" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="600" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customerInfoDetailId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="601" parent="237" name="customerInfoSnapshotId">
+      <Position>1</Position>
+      <Comment>客户快照信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="602" parent="237" name="customerInfoId">
+      <Position>2</Position>
+      <Comment>客户主键</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="603" parent="237" name="customerName">
+      <Position>3</Position>
+      <Comment>客户姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="604" parent="237" name="idCode">
+      <Position>4</Position>
+      <Comment>身份证号</Comment>
+      <DataType>varchar(18)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="605" parent="237" name="sex">
+      <Position>5</Position>
+      <Comment>性别</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="606" parent="237" name="customerState">
+      <Position>6</Position>
+      <Comment>客户状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="607" parent="237" name="id5State">
+      <Position>7</Position>
+      <Comment>实名认证状态</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="608" parent="237" name="salesManId">
+      <Position>8</Position>
+      <Comment>销售ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="609" parent="237" name="salesManName">
+      <Position>9</Position>
+      <Comment>销售姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="610" parent="237" name="recorderId">
+      <Position>10</Position>
+      <Comment>客服Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="611" parent="237" name="recorderName">
+      <Position>11</Position>
+      <Comment>客服姓名</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="612" parent="237" name="followUpUser">
+      <Position>12</Position>
+      <Comment>跟踪人Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="613" parent="237" name="departmentCode">
+      <Position>13</Position>
+      <Comment>所属门店编号</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="614" parent="237" name="departmentName">
+      <Position>14</Position>
+      <Comment>所属门店名字</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="615" parent="237" name="salesOfficerId">
+      <Position>15</Position>
+      <Comment>销售组id</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="616" parent="237" name="salesOfficerName">
+      <Position>16</Position>
+      <Comment>销售组名字</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="617" parent="237" name="createTime">
+      <Position>17</Position>
+      <Comment>录入时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="618" parent="237" name="lstMdfTime">
+      <Position>18</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="619" parent="237" name="dw_update_time">
+      <Position>19</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="620" parent="237" name="idx_idCode">
+      <ColNames>idCode</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="621" parent="237" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="622" parent="237" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customerInfoSnapshotId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="623" parent="238" name="customerSnapshotDetailId">
+      <Position>1</Position>
+      <Comment>客户详细信息快照主键</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="624" parent="238" name="customerInfoSnapshotId">
+      <Position>2</Position>
+      <Comment>客户快照信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="625" parent="238" name="isMarry">
+      <Position>3</Position>
+      <Comment>婚姻状况</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="626" parent="238" name="householdProvince">
+      <Position>4</Position>
+      <Comment>户籍所在省</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="627" parent="238" name="householdCity">
+      <Position>5</Position>
+      <Comment>户籍所在市</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="628" parent="238" name="householdSubCity">
+      <Position>6</Position>
+      <Comment>户籍所在区县</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="629" parent="238" name="householdAddress">
+      <Position>7</Position>
+      <Comment>户籍详细地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="630" parent="238" name="householdZipcode">
+      <Position>8</Position>
+      <Comment>户籍所在邮编</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="631" parent="238" name="livesProvince">
+      <Position>9</Position>
+      <Comment>居住地所在省</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="632" parent="238" name="livesCity">
+      <Position>10</Position>
+      <Comment>居住地所在市</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="633" parent="238" name="livesSubCity">
+      <Position>11</Position>
+      <Comment>居住地所有区县</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="634" parent="238" name="livesAddress">
+      <Position>12</Position>
+      <Comment>居住地详细地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="635" parent="238" name="livesTelphone">
+      <Position>13</Position>
+      <Comment>居住址电话</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="636" parent="238" name="zipcode">
+      <Position>14</Position>
+      <Comment>居住地邮编</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="637" parent="238" name="mobilePhone">
+      <Position>15</Position>
+      <Comment>手机号码</Comment>
+      <DataType>varchar(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="638" parent="238" name="email">
+      <Position>16</Position>
+      <Comment>电子邮箱</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="639" parent="238" name="fromChannel">
+      <Position>17</Position>
+      <Comment>客户来源</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="640" parent="238" name="incomeMonth">
+      <Position>18</Position>
+      <Comment>月收入</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="641" parent="238" name="hasChildren">
+      <Position>19</Position>
+      <Comment>是否有子女</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="642" parent="238" name="highestEducation">
+      <Position>20</Position>
+      <Comment>最高学历</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="643" parent="238" name="companyWorkName">
+      <Position>21</Position>
+      <Comment>工作单位名称</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="644" parent="238" name="companyProvince">
+      <Position>22</Position>
+      <Comment>工作单位所在省</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="645" parent="238" name="companyCity">
+      <Position>23</Position>
+      <Comment>工作单位所在市</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="646" parent="238" name="companySubcity">
+      <Position>24</Position>
+      <Comment>工作单位区县</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="647" parent="238" name="companyAddress">
+      <Position>25</Position>
+      <Comment>工作单位地址</Comment>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="648" parent="238" name="companyZipcode">
+      <Position>26</Position>
+      <Comment>工作单位邮编</Comment>
+      <DataType>varchar(6)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="649" parent="238" name="companyTelphone">
+      <Position>27</Position>
+      <Comment>单位电话</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="650" parent="238" name="workPosition">
+      <Position>28</Position>
+      <Comment>职务</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="651" parent="238" name="otherIncome">
+      <Position>29</Position>
+      <Comment>其他收入</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="652" parent="238" name="payday">
+      <Position>30</Position>
+      <Comment>每月发薪日</Comment>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="653" parent="238" name="payway">
+      <Position>31</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="654" parent="238" name="hiredate">
+      <Position>32</Position>
+      <Comment>进入该单位时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="655" parent="238" name="involved">
+      <Position>33</Position>
+      <Comment>所属行业</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="656" parent="238" name="unitNature">
+      <Position>34</Position>
+      <Comment>单位性质</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="657" parent="238" name="accumulationFundPassword">
+      <Position>35</Position>
+      <Comment>公积金卡密码</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="658" parent="238" name="accumulationFundNumber">
+      <Position>36</Position>
+      <Comment>公积金卡号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="659" parent="238" name="bankNumber">
+      <Position>37</Position>
+      <Comment>银行卡号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="660" parent="238" name="cohabitant">
+      <Position>38</Position>
+      <Comment>共同居住者</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="661" parent="238" name="startLiving">
+      <Position>39</Position>
+      <Comment>起始居住时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="662" parent="238" name="chummageMoney">
+      <Position>40</Position>
+      <Comment>住房租用费用</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="663" parent="238" name="liveStatus">
+      <Position>41</Position>
+      <Comment>住房状况</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="664" parent="238" name="weChatId">
+      <Position>42</Position>
+      <Comment>微信号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="665" parent="238" name="supportNumber">
+      <Position>43</Position>
+      <Comment>供养人数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="666" parent="238" name="createTime">
+      <Position>44</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="667" parent="238" name="lstMdfTime">
+      <Position>45</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="668" parent="238" name="workCustomerType">
+      <Position>46</Position>
+      <Comment>工作客户类型</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="669" parent="238" name="workSetUpTime">
+      <Position>47</Position>
+      <Comment>成立时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="670" parent="238" name="localDepartMent">
+      <Position>48</Position>
+      <Comment>所在部门</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="671" parent="238" name="residenceNature">
+      <Position>49</Position>
+      <Comment>户口性质</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="672" parent="238" name="freelanceWorkPosition">
+      <Position>50</Position>
+      <Comment>手动输入自由职业</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="673" parent="238" name="occupationType">
+      <Position>51</Position>
+      <Comment>职业类型</Comment>
+      <DataType>tinyint(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="674" parent="238" name="token">
+      <Position>52</Position>
+      <Comment>网易云密码</Comment>
+      <DataType>varchar(64)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="675" parent="238" name="accid">
+      <Position>53</Position>
+      <Comment>网易云登录账号</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="676" parent="238" name="netEastName">
+      <Position>54</Position>
+      <Comment>网易云昵称</Comment>
+      <DataType>varchar(32)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="677" parent="238" name="locationPosition">
+      <Position>55</Position>
+      <Comment>app 定位地址</Comment>
+      <DataType>varchar(128)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="678" parent="238" name="dw_update_time">
+      <Position>56</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="679" parent="238" name="idx_customerInfoSnapshotId">
+      <ColNames>customerInfoSnapshotId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="680" parent="238" name="idx_mobilePhone">
+      <ColNames>mobilePhone</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="681" parent="238" name="idx_companyWorkName">
+      <ColNames>companyWorkName</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="682" parent="238" name="idx_companyTelphone">
+      <ColNames>companyTelphone</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="683" parent="238" name="idx_createTime">
+      <ColNames>createTime</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="684" parent="238" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="685" parent="238" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customerSnapshotDetailId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="686" parent="239" name="repaymentPlanId">
+      <Position>1</Position>
+      <Comment>还款计划ID</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="687" parent="239" name="auditingInfoId">
+      <Position>2</Position>
+      <Comment>进件审核单Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="688" parent="239" name="contractInfoId">
+      <Position>3</Position>
+      <Comment>合同信息Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="689" parent="239" name="sectionCode">
+      <Position>4</Position>
+      <Comment>期号</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="690" parent="239" name="repaymentDay">
+      <Position>5</Position>
+      <Comment>还款日</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="691" parent="239" name="shouldLateFee">
+      <Position>6</Position>
+      <Comment>应还逾期金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="692" parent="239" name="shouldPenaltyInterest">
+      <Position>7</Position>
+      <Comment>应还罚息金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="693" parent="239" name="shouldCapital">
+      <Position>8</Position>
+      <Comment>应还本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="694" parent="239" name="shouldInterest">
+      <Position>9</Position>
+      <Comment>应还利息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="695" parent="239" name="shouldBalance">
+      <Position>10</Position>
+      <Comment>应还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="696" parent="239" name="factCapital">
+      <Position>11</Position>
+      <Comment>实还本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="697" parent="239" name="factInterest">
+      <Position>12</Position>
+      <Comment>实还利息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="698" parent="239" name="factBalance">
+      <Position>13</Position>
+      <Comment>实还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="699" parent="239" name="factLateFee">
+      <Position>14</Position>
+      <Comment>实还逾期金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="700" parent="239" name="factPenaltyInterest">
+      <Position>15</Position>
+      <Comment>实还罚息金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="701" parent="239" name="remainingCapital">
+      <Position>16</Position>
+      <Comment>剩余应还本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="702" parent="239" name="remainingInterest">
+      <Position>17</Position>
+      <Comment>剩余应还利息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="703" parent="239" name="remainingBalance">
+      <Position>18</Position>
+      <Comment>剩余应还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="704" parent="239" name="remainingLateFee">
+      <Position>19</Position>
+      <Comment>剩余应还逾期金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="705" parent="239" name="remainingPenaltyInterest">
+      <Position>20</Position>
+      <Comment>剩余应还罚息金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="706" parent="239" name="reductionsCapital">
+      <Position>21</Position>
+      <Comment>累计减免本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="707" parent="239" name="reductionsInterest">
+      <Position>22</Position>
+      <Comment>累计减免利息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="708" parent="239" name="reductionsPenaltyInterest">
+      <Position>23</Position>
+      <Comment>累计减免罚息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="709" parent="239" name="reductionsLateFee">
+      <Position>24</Position>
+      <Comment>累计减免逾期费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="710" parent="239" name="settlementBalance">
+      <Position>25</Position>
+      <Comment>一次性结清金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="711" parent="239" name="monthBalance">
+      <Position>26</Position>
+      <Comment>月还款额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="712" parent="239" name="planState">
+      <Position>27</Position>
+      <Comment>还款状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="713" parent="239" name="createTime">
+      <Position>28</Position>
+      <Comment>创建时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="714" parent="239" name="lstMdfTime">
+      <Position>29</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="715" parent="239" name="lateTime">
+      <Position>30</Position>
+      <Comment>逾期天数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="716" parent="239" name="totalPeriods">
+      <Position>31</Position>
+      <Comment>总期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="717" parent="239" name="isLate">
+      <Position>32</Position>
+      <Comment>是否逾期过</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="718" parent="239" name="isRepaymentRemind">
+      <Position>33</Position>
+      <Comment>是否有还款提醒</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="719" parent="239" name="isSettlement">
+      <Position>34</Position>
+      <Comment>是否提前还款状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="720" parent="239" name="settlementTime">
+      <Position>35</Position>
+      <Comment>提前还款日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="721" parent="239" name="remainingAllCapital">
+      <Position>36</Position>
+      <Comment>当期剩余本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="722" parent="239" name="shouldRefundFees">
+      <Position>37</Position>
+      <Comment>应退费金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="723" parent="239" name="factRefundFees">
+      <Position>38</Position>
+      <Comment>实退费金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="724" parent="239" name="monthServiceFees">
+      <Position>39</Position>
+      <Comment>月摊销服务费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="725" parent="239" name="monthConsultingFees">
+      <Position>40</Position>
+      <Comment>月摊销咨询费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="726" parent="239" name="refundServiceFees">
+      <Position>41</Position>
+      <Comment>电商退金融服务费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="727" parent="239" name="isSendOut">
+      <Position>42</Position>
+      <Comment>是否发标</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="728" parent="239" name="sendOutTime">
+      <Position>43</Position>
+      <Comment>发标日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="729" parent="239" name="shouldRefundServiceFees">
+      <Position>44</Position>
+      <Comment>应退服务费金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="730" parent="239" name="factRefundServiceFees">
+      <Position>45</Position>
+      <Comment>实退服务费金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="731" parent="239" name="shouldRefundConsultingFees">
+      <Position>46</Position>
+      <Comment>应退咨询费金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="732" parent="239" name="factRefundConsultingFees">
+      <Position>47</Position>
+      <Comment>实退咨询费金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="733" parent="239" name="isPushOnLine">
+      <Position>48</Position>
+      <Comment>是否推送到线上（1是，为空则为否）</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="734" parent="239" name="isSign">
+      <Position>49</Position>
+      <Comment>是否逾期标记 1 是  2 否</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="735" parent="239" name="advanceState">
+      <Position>50</Position>
+      <Comment>垫付状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="736" parent="239" name="factMonthServiceFees">
+      <Position>51</Position>
+      <Comment>实还月服务费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="737" parent="239" name="factMonthConsultingFees">
+      <Position>52</Position>
+      <Comment>实还月咨询费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="738" parent="239" name="shouldMonthServiceFees">
+      <Position>53</Position>
+      <Comment>应还月服务费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="739" parent="239" name="shouldMonthConsultingFees">
+      <Position>54</Position>
+      <Comment>应还月咨询费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="740" parent="239" name="remainingMonthServiceFees">
+      <Position>55</Position>
+      <Comment>剩余应还月服务费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="741" parent="239" name="remainingMonthConsultingFees">
+      <Position>56</Position>
+      <Comment>剩余应还月咨询费</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <DefaultExpression>&apos;0.00&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="742" parent="239" name="lastRepaymentApplyId">
+      <Position>57</Position>
+      <Comment>最新还款申请id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="743" parent="239" name="dw_update_time">
+      <Position>58</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <column id="744" parent="239" name="rechargeState">
+      <Position>59</Position>
+      <Comment>充值状态（1已充值；2未充值，3充值处理中）</Comment>
+      <DataType>tinyint(2)|0s</DataType>
+      <DefaultExpression>&apos;2&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="745" parent="239" name="idx_aid_rday">
+      <ColNames>auditingInfoId
+repaymentDay</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="746" parent="239" name="idx_Auditinginfoid_Totalperiods">
+      <ColNames>auditingInfoId
+totalPeriods</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="747" parent="239" name="index_contractInfoId">
+      <ColNames>contractInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="748" parent="239" name="idx_repaymentDay">
+      <ColNames>repaymentDay</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="749" parent="239" name="idx_planState_auditingInfoId">
+      <ColNames>planState
+auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="750" parent="239" name="idx_isLate_auditingInfoId">
+      <ColNames>isLate
+auditingInfoId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="751" parent="239" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="752" parent="239" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>repaymentPlanId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="753" parent="240" name="id">
+      <Position>1</Position>
+      <Comment>逾期管理ID</Comment>
+      <DataType>int(11) unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="754" parent="240" name="auditing_info_id">
+      <Position>2</Position>
+      <Comment>进件审核单Id</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="755" parent="240" name="repayment_plan_id">
+      <Position>3</Position>
+      <Comment>还款计划Id，当天最后逾期的一期</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="756" parent="240" name="already_pay_periods">
+      <Position>4</Position>
+      <Comment>已还期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="757" parent="240" name="be_overdue_periods">
+      <Position>5</Position>
+      <Comment>逾期期数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="758" parent="240" name="be_overdue_days">
+      <Position>6</Position>
+      <Comment>逾期天数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="759" parent="240" name="state">
+      <Position>7</Position>
+      <Comment>逾期状态</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="760" parent="240" name="remark">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>varchar(200)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="761" parent="240" name="update_time">
+      <Position>9</Position>
+      <Comment>修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="762" parent="240" name="create_time">
+      <Position>10</Position>
+      <Comment>创建日期</Comment>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="763" parent="240" name="should_balance">
+      <Position>11</Position>
+      <Comment>应还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="764" parent="240" name="fact_balance">
+      <Position>12</Position>
+      <Comment>已还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="765" parent="240" name="remaining_balance">
+      <Position>13</Position>
+      <Comment>剩余应还总额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="766" parent="240" name="should_late_fee">
+      <Position>14</Position>
+      <Comment>应还违约金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="767" parent="240" name="remaining_late_fee">
+      <Position>15</Position>
+      <Comment>剩余应还违约金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="768" parent="240" name="fact_late_fee">
+      <Position>16</Position>
+      <Comment>实还违约金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="769" parent="240" name="remaining_penalty_interest">
+      <Position>17</Position>
+      <Comment>剩余应还罚息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="770" parent="240" name="should_penalty_interest">
+      <Position>18</Position>
+      <Comment>应还罚息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="771" parent="240" name="fact_penalty_interest">
+      <Position>19</Position>
+      <Comment>实还罚息</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="772" parent="240" name="m3_days">
+      <Position>20</Position>
+      <Comment>M3+天数</Comment>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="773" parent="240" name="m3_yes">
+      <Position>21</Position>
+      <Comment>是否M3</Comment>
+      <DataType>tinyint(4)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="774" parent="240" name="remaining_capital">
+      <Position>22</Position>
+      <Comment>逾期剩余应还本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="775" parent="240" name="should_capital">
+      <Position>23</Position>
+      <Comment>逾期应还本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="776" parent="240" name="fact_capital">
+      <Position>24</Position>
+      <Comment>逾期已还本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="777" parent="240" name="contract_remaining_capital">
+      <Position>25</Position>
+      <Comment>合同剩余本金</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="778" parent="240" name="settlement_balance">
+      <Position>26</Position>
+      <Comment>一次性结清金额</Comment>
+      <DataType>decimal(18,2 digit)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="779" parent="240" name="dw_update_time">
+      <Position>27</Position>
+      <Comment>最后修改时间</Comment>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
+    </column>
+    <index id="780" parent="240" name="index_auditingInfoId">
+      <ColNames>auditing_info_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="781" parent="240" name="idx_beOverdueDays">
+      <ColNames>be_overdue_days</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="782" parent="240" name="idx_dw_update_time">
+      <ColNames>dw_update_time</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="783" parent="240" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

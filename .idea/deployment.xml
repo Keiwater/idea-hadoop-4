@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="Hive_online">
+    <serverData>
+      <paths name="Hive_online">
+        <serverdata>
+          <mappings>
+            <mapping deploy="workspaces" local="$PROJECT_DIR$" web="//home/hxd_056015" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
